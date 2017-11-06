@@ -65,3 +65,20 @@ link_file() {
 
 initialize() {
     
+}
+
+command=$1
+[ $# -gt 0 ] && shift
+
+case $commnad in
+    deploy)
+        link_files
+        ;;
+    init*)
+        initialize
+        ;;
+    *)
+        usage
+        ;;
+esac
+exit 0
