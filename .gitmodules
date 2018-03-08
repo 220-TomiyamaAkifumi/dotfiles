@@ -1,3 +1,6 @@
 [submodule ".tmux/tmux-powerline"]
 	path = .tmux/tmux-powerline
 	url = https://github.com/erikw/tmux-powerline.git
+[submodule "ctags"]
+	path = ctags
+	url = https://github.com/universal-ctags/ctags.git
