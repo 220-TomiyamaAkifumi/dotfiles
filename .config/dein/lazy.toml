@@ -1,28 +1,3 @@
 ################################################
 # All Files
 ################################################
-
-[[plugins]] # vimの色設定
-repo = 'w0ng/vim-hybrid'
-
-[[plugins]] # gitの差分表示
-repo = 'airblade/vim-gitgutter'
-
-[[plugins]] # インデントに色付け
-repo = 'nathanaelkane/vim-indent-guides'
-
-[[plugins]] # powerline
-repo  =  'alpaca-tc/alpaca_powertabline'
-
-[[plugins]] # powerline
-repo  =  'Lokaltog/powerline'
-rtp   =  'powerline/bindings/vim'
-
-[[plugins]] # powerline
-repo  =  'Lokaltog/powerline-fontpatcher'
-
-[[plugins]] # powerline
-repo  =  'itchyny/lightline.vim'
-
-[[plugins]] #
-repo =  "rizzatti/dash.vim"
